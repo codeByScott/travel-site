@@ -6,7 +6,7 @@
     margin: 0 0 1.8rem 0;
   }
 
-  @@mixin atSmall {
+  @mixin atSmall {
     font-size: 1.125rem;
   }
 
