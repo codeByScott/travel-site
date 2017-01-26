@@ -3,16 +3,21 @@
   border-bottom: 10px solid $mainBlue;
 
   &__image {
-    display: block;  
+    display: block;
   }
 
   &__text-content {
+    padding-top: 88px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     width: 100%;
     text-align: center;
+
+    @mixin atMedium {
+      padding-top: 60px;
+    }
   }
 
   &__title {
